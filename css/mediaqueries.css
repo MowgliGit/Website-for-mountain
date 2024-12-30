@@ -91,3 +91,14 @@
     padding: 10px;
   }
 }
+@media (max-width: 550px) {
+  .explore-content {
+    max-width: 100%;
+    padding: 50px;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
