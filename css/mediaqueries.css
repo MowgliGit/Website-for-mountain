@@ -1,3 +1,14 @@
+@media (max-width: 850px) {
+  .explore-content {
+    max-width: 80%;
+    padding: 50px;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 /* Mobile device */
 @media (max-width: 650px) {
   .navbar {
@@ -50,7 +61,7 @@
     margin: 20px auto;
   }
   .col img {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .image-gallery {
@@ -62,10 +73,16 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    width: 80%;
+    width: 100%;
   }
   .explore-content {
-    width: 100%;
+    max-width: 80%;
+    padding: 50px;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .tours .col {
     width: 100%;

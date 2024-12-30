@@ -167,7 +167,7 @@ header {
   align-items: center;
 }
 .explore-content {
-  width: 50%;
+  max-width: 60%;
   padding: 50px;
   color: #fff;
 
